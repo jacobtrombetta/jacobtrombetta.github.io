@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site Build Settings
 
 # jekyll-paginate configuration
@@ -21,3 +22,6 @@ description:	       "Artist and mathematician"
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
+=======
+theme: jekyll-theme-cayman
+>>>>>>> 901408a421d4ec3ff7a0619fade034f33e0e0d94
