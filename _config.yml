@@ -21,3 +21,6 @@ description:	       "Artist and mathematician"
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
+
+# Custom url
+url: https://www.jacobtrombetta.com/
