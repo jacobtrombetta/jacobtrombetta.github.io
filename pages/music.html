@@ -1,0 +1,40 @@
+---
+layout: page
+title: Music
+---
+
+<center>
+  <table>
+      <tr>
+        <td>
+          <a href="{{ site.github.url }}/pages/bands/jacob-trombetta.html">Jacob Trombetta</a>
+        </td>
+        <td>
+          <a href="{{ site.github.url }}/pages/bands/glenn-lazear.html">Glenn Lazear</a>
+        </td>
+        <td>
+          <a href="{{ site.github.url }}/pages/bands/krumel.html">Krümel</a>
+        </td>
+        <td>
+          <a href="https://discretespectrum.bandcamp.com/album/i">Haar</a>
+        </td>
+        <td>
+          <a href="{{ site.github.url }}/pages/bands/ondelette.html">Ondelette</a>
+        </td>
+        <td>
+          <a href="{{ site.github.url }}/pages/bands/comfort-clouds.html">Comfort Clouds</a>
+        </td>
+        <td>
+          <a href="{{ site.github.url }}/pages/bands/collaborations.html">Collaborations</a>
+        </td>
+    </tr>
+  </table>
+</center>
+
+{% for post in site.categories.music %}
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+{% endfor %}

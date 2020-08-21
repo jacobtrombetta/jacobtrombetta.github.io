@@ -1,0 +1,34 @@
+# Change 'comments' to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'millennial-3'
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-ID: 'UA-26698889-1'
+
+menu:
+- {name: 'Music', folder: 'pages', file: 'music.html'}
+- {name: 'Video', folder: 'pages', file: 'video.html'}
+- {name: 'About', folder: 'pages', file: 'CV.html'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+#- {icon: 'twitter', link: 'https://twitter.com/jacobtrombetta'}
+#- {icon: 'facebook', link: 'https://www.facebook.com/jacob.trombetta'}
+- {icon: 'music', link: 'https://discretespectrum.bandcamp.com'}
+- {icon: 'instagram', link: 'https://instagram.com/jacobtrombetta'}
+#- {icon: 'soundcloud', link: 'https://soundcloud.com/jacob-trombetta'}
+- {icon: 'youtube', link: 'https://www.youtube.com/channel/UC_M8pYklKAYFgLaHwEvq_7A'}
+- {icon: 'envelope', link: 'mailto:jacobtrombetta@gmail.com'}
+#- {icon: 'vimeo', link: ''}
+
+# Customize site text
+pagination:
+  next_page: '>'
+  previous_page: '<'
+
+sharing_button_prompt: 'Share'
+
+related_posts: 'Related work'
+
+post_date_prefix: 'Written on'
