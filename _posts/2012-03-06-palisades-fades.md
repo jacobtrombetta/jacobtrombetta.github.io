@@ -6,8 +6,8 @@ categories: music
 tags: [collaboration]
 image: colab/p_f_1.jpg
 ---
-<div class="center">
-    <iframe style="border: 0; width: 400px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=3753098896/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless>
+<div class="bandcamp">
+    <iframe style="border: 0; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=3753098896/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless>
     </iframe>
 </div>
 

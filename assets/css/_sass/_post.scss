@@ -31,6 +31,12 @@
   width: 600px;
   height: 338px;
 }
+.bandcamp iframe {
+  align: middle;
+  margin: 5px auto 25px;
+  display: block;
+  width: 500px;
+}
 @media (max-width: $container-width) {
   .page-content {
     width: 60vw;
@@ -58,6 +64,12 @@
     display: block;
     width: 60vw;
     height: 34vw;
+  }
+  .bandcamp iframe {
+    align: middle;
+    margin: 5px auto 25px;
+    display: block;
+    width: 60vw;
   }
 }
 @media (max-width: $tablet-width) {
@@ -87,6 +99,12 @@
     display: block;
     width: 95vw;
     height: 54vw;
+  }
+  .bandcamp iframe {
+    align: middle;
+    margin: 5px auto 25px;
+    display: block;
+    width: 95vw;
   }
 }
 .post-share {

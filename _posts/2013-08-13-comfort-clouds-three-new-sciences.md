@@ -7,8 +7,8 @@ tags: [comfortclouds]
 image: cc/cc_tns_1.jpg
 ---
 
-<div class="center">
-  <iframe style="border: 0; width: 400px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=2692347180/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="http://discretespectrum.bandcamp.com/album/three-new-sciences">Three New Sciences by Comfort Clouds</a></iframe>
+<div class="bandcamp">
+  <iframe style="border: 0; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=2692347180/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="http://discretespectrum.bandcamp.com/album/three-new-sciences">Three New Sciences by Comfort Clouds</a></iframe>
 </div>
 
 Credits  
