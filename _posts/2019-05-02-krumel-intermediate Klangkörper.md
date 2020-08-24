@@ -19,6 +19,6 @@ image: k/k_ik_1.jpg
 6:16  
 2019
 
-<div class="featured-image">
+<div class="image">
  <img src="{{ site.github.url }}/assets/img/k/k_ik_2.jpg">
 </div>
