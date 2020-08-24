@@ -1,8 +1,8 @@
 ---
-layout: misc
+layout: page
 title: About
 ---
-<div class="featured-image">
+<div class="image">
  <img src="{{ site.github.url }}/assets/img/jt/jt_head_1.jpg">
 </div>
 
