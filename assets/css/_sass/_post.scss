@@ -24,6 +24,13 @@
   display: block;
   max-width: 600px;
 }
+.video iframe {
+  align: middle;
+  margin: 5px auto 25px;
+  display: block;
+  width: 600px;
+  height: 338px;
+}
 @media (max-width: $container-width) {
   .page-content {
     width: 60vw;
@@ -44,6 +51,13 @@
     margin: 5px auto 25px;
     display: block;
     max-width: 60vw;
+  }
+  .video iframe {
+    align: middle;
+    margin: 5px auto 25px;
+    display: block;
+    width: 60vw;
+    height: 34vw;
   }
 }
 @media (max-width: $tablet-width) {
@@ -66,6 +80,13 @@
     margin: 5px auto 25px;
     display: block;
     max-width: 95vw;
+  }
+  .video iframe {
+    align: middle;
+    margin: 5px auto 25px;
+    display: block;
+    width: 95vw;
+    height: 54vw;
   }
 }
 .post-share {

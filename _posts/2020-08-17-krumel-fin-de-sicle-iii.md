@@ -9,8 +9,8 @@ image: k/k_fds_1.jpg
 
 *Fin de Siècle III* is song from Krümel's album [**II**]({{ site.github.url }}/music/kru-mel-ii.html).
 
-<div class="center">
-  <iframe width="600" height="338" src="https://www.youtube.com/embed/ME77YP7CboI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class ="video">
+  <iframe src="https://www.youtube.com/embed/ME77YP7CboI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 4k digital video, color, stereo sound  

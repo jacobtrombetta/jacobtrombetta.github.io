@@ -9,8 +9,6 @@ image: k/k_g_1.jpg
 
 Cassette infomercial for Krümel's album [**Gravewave**](https://discretespectrum.bandcamp.com/album/gravewave).
 
-<div class="center">
-  <figure class="video_container">
-    <iframe width="600" height="338" src="https://www.youtube.com/embed/rQZO-vQgDEE" frameborder="0" allowfullscreen></iframe>
-  </figure>
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/rQZO-vQgDEE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

@@ -12,10 +12,8 @@ image: v/t_h_i_t_1.jpg
 Winner Highland Square Film Festival (2019).  
 Official selection Standing Rock Cultural Arts Short Film Festival (2019).
 
-<div class="center">
-  <figure class="video_container">
-    <iframe width="600" height="338" src="https://www.youtube.com/embed/ysN0zl6voxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </figure>
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/ysN0zl6voxA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 4k digital video, color, stereo sound  
