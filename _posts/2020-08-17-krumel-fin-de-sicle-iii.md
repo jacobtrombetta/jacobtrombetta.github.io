@@ -7,7 +7,7 @@ tags: [krumel]
 image: k/k_fds_1.jpg
 ---
 
-*Fin de Siècle III* is song from Krümel's album [**II**]({{ site.github.url }}/music/kru-mel-ii.html).
+*Fin de Siècle III* is song from Krümel's album [**II**]({{ site.github.url }}/music/krumel-ii.html).
 
 <div class ="video">
   <iframe src="https://www.youtube.com/embed/ME77YP7CboI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

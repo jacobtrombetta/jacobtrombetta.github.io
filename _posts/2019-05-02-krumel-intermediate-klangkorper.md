@@ -7,7 +7,7 @@ tags: [krumel]
 image: k/k_ik_1.jpg
 ---
 
-*Intermediate Klangkörper* is song from Krümel's album [**II**]({{ site.github.url }}/music/kru-mel-ii.html).
+*Intermediate Klangkörper* is song from Krümel's album [**II**]({{ site.github.url }}/music/krumel-ii.html).
 
 <div class="video">
   <iframe src="https://www.youtube.com/embed/Zs5V7CozRZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
