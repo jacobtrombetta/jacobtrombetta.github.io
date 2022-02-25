@@ -10,7 +10,10 @@ image: gl/gl_y_1.jpg
 A lonely alien has a vision and finds itself in search of a companion. *Yesterday* is a song from Glenn Lazear's album [**Man From Mingo**]({{ site.github.url }}/music/glenn-lazear-man-from-mingo.html).
 
 <div class="video">
-  <iframe src="https://www.youtube.com/embed/zyqQXsNsG2o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/ekkIbb3-v8I" 
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
 </div>
 
 Credits  
