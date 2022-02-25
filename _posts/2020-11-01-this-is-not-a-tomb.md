@@ -5,6 +5,7 @@ author: "Jacob Trombetta"
 categories: video
 tags: [art]
 image: v/t_i_n_a_t.jpg
+hide_post_date: true
 ---
 
 *This is Not a Tomb* is a short about being stuck in 2020.

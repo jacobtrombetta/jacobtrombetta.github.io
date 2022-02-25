@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about
 ---
 <div class="image">
  <img src="{{ site.github.url }}/assets/img/jt/jt_head_1.jpg">
