@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about
 ---
-<div class="image">
+<div class="featured-image">
  <img src="{{ site.github.url }}/assets/img/jt/jt_head_1.jpg">
 </div>
 

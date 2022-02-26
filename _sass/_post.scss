@@ -40,6 +40,19 @@
     display: block;
     max-width: 60vw;
   }
+  .video iframe {
+    align: middle;
+    margin: 5px auto 25px;
+    display: block;
+    width: 60vw;
+    height: 340px;
+  }
+  .bandcamp iframe {
+    align: middle;
+    margin: 5px auto 25px;
+    display: block;
+    width: 50vw;
+  }
 }
 @media (max-width: $tablet-width) {
   .post-content {
@@ -52,6 +65,19 @@
     margin: 5px auto 25px;
     display: block;
     max-width: 95vw;
+  }
+  .video iframe {
+    align: middle;
+    margin: 5px auto 25px;
+    display: block;
+    width: 95vw;
+    height: 338px;
+  }
+  .bandcamp iframe {
+    align: middle;
+    margin: 5px auto 25px;
+    display: block;
+    width: 90vw;
   }
 }
 .post-share {
