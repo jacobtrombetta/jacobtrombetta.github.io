@@ -9,11 +9,9 @@ permalink: /about
 
 Jacob Trombetta was born in Mingo Junction, Ohio, in 1983. He received a Bachelor
 of Arts in Interdisciplinary Studies: Music, Film, and Mathematics, and a Master
-of Science in Applied Mathematics from the University of Akron. His video *Turning
-Heads in Tiretown* won the Highland Square film festival in 2019.
+of Science in Applied Mathematics from the University of Akron.
 
-He currently works as the Director of Algorithms and Imaging Mathematics at a machine
-vision company in Akron, Ohio.
+He currently works as a Staff Software Engineer at Space and Time.
 
 **Contact**  
 [jacobtrombetta@gmail.com](mailto:jacobtrombetta@gmail.com)
