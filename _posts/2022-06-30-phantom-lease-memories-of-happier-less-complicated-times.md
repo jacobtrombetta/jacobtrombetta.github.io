@@ -16,7 +16,23 @@ image: pl/pl_mohalct_1.jpg
 
 **Phantom Lease saved Arthur Treacher's**
 
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/6UnF-UgdPK4" 
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+</div>
+
+<div class="video">
+  <iframe src="https://www.youtube.com/embed/jLyTFcWHkso" 
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+</div>
+
 Phantom Lease is Jacob Trombetta and Brenden Vencel.  
 All music by Phantom Lease.  
 
 released June 30, 2022
+
+[http://phantomlease.com/](http://phantomlease.com/)
