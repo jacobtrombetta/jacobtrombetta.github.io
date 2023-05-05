@@ -12,7 +12,7 @@ image: gl/gl_r_1.jpg
 <div class="bandcamp">
   <iframe style="border: 0; height: 439px;" 
           src="https://bandcamp.com/EmbeddedPlayer/album=3294171457/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless>
-          <a href="https://glennlazear.bandcamp.com/album/restland">Your Secrets by Glenn Lazear
+          <a href="https://glennlazear.bandcamp.com/album/restland">Restland by Glenn Lazear
           </a>
   </iframe>
 </div>
