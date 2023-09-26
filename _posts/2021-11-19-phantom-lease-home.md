@@ -60,9 +60,9 @@ HOME is a cult and should not be trusted.
   </iframe>
 </div>
 
-Phantom Lease is Jacob Trombetta and Brenden Vencel.  
-All music by Phantom Lease.   
+Phantom Lease is Jacob Trombetta and Brenden Vencel  
+All music by Phantom Lease   
 
 released November 19, 2021  
 
-[http://phantomlease.com/](http://phantomlease.com/)
+[phantomlease.com](http://phantomlease.com/)

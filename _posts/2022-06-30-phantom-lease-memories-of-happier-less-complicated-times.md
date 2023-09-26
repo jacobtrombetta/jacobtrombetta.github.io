@@ -30,9 +30,9 @@ image: pl/pl_mohalct_1.jpg
   </iframe>
 </div>
 
-Phantom Lease is Jacob Trombetta and Brenden Vencel.  
-All music by Phantom Lease.  
+Phantom Lease is Jacob Trombetta and Brenden Vencel  
+All music by Phantom Lease  
 
 released June 30, 2022
 
-[http://phantomlease.com/](http://phantomlease.com/)
+[phantomlease.com](http://phantomlease.com/)
