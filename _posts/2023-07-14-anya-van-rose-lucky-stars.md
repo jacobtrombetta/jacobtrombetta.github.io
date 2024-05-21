@@ -3,9 +3,10 @@ layout: post
 title: "Anya Van Rose - Lucky Stars"
 author: "Jacob Trombetta"
 categories: [music]
-tags: [production]
+tags: [collaboration]
 image: p/avr/avr_ls_01.jpeg
 ---
+
 Jacob was able to work on some songs for Anya Van Rose's debut full length record **Lucky Stars** in 2023. Details and songs below.  
 
 <div class="bandcamp">
@@ -50,5 +51,4 @@ Jacob was able to work on some songs for Anya Van Rose's debut full length recor
     </iframe>
 </div>
 
-[Listen to Lucky Stars on Bandcamp](https://anyavanrose.bandcamp.com/album/lucky-stars)   
-[Anya Van Rose](https://www.anyavanrose.com/)  
+[Listen to Lucky Stars on Bandcamp](https://anyavanrose.bandcamp.com/album/lucky-stars)

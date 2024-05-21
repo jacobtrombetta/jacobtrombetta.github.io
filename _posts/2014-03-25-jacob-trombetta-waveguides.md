@@ -3,7 +3,7 @@ layout: post
 title: "Jacob Trombetta - Waveguides"
 author: "Jacob Trombetta"
 categories: music
-tags: [music]
+tags: [jacobtrombetta]
 image: jt/jt_w_1.jpg
 ---
 

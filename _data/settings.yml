@@ -1,34 +1,55 @@
-# Change 'comments' to true for Disqus comments
-disqus:
-  comments: false
-  disqus_shortname: 'millennial-3'
-
-# If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-ID: 'UA-26698889-1'
+#-------------------------------
+# General Site Settings
 
 menu:
-- {name: 'Music', url: 'music'}
-- {name: 'Video', url: 'video'}
-- {name: 'About', url: 'about'}
+#- {name: 'home',     url: ''}
+- {name: 'about',    url: 'projects/music'}
+- {name: 'events',   url: 'events'}
+- {name: 'projects', url: 'projects'}
+- {name: 'contact',  url: 'contact'}
 
-# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+#-------------------------------
+# Projects Section
+
+projects:
+- {name: 'music',      url: 'music',  feature: major}
+#- {name: 'algorithms', url: 'algo',   feature: minor}
+#- {name: 'video',      url: 'video',  feature: minor}
+
+#-------------------------------
+# Contact Section
+
 social:
-#- {icon: 'twitter', link: 'https://twitter.com/jacobtrombetta'}
-#- {icon: 'facebook', link: 'https://www.facebook.com/jacob.trombetta'}
-- {icon: 'music', link: 'https://discretespectrum.bandcamp.com'}
+- {icon: 'bandcamp',  link: 'https://discretespectrum.bandcamp.com/'}
 - {icon: 'instagram', link: 'https://instagram.com/jacobtrombetta'}
+#- {icon: 'youtube',   link: 'https://www.youtube.com/channel/UC_M8pYklKAYFgLaHwEvq_7A'}
+- {icon: 'vimeo',     link: 'https://vimeo.com/user106725791'}
+- {icon: 'github',    link: 'https://github.com/jacobtrombetta'}
+- {icon: 'envelope',  link: 'mailto:jacobtrombetta@gmail.com'}
+#- {icon: 'twitter',   link: 'https://twitter.com/jacobtrombetta'}
+#- {icon: 'facebook', link: 'https://www.facebook.com/jacob.trombetta'}
 #- {icon: 'soundcloud', link: 'https://soundcloud.com/jacob-trombetta'}
-- {icon: 'youtube', link: 'https://www.youtube.com/channel/UC_M8pYklKAYFgLaHwEvq_7A'}
-- {icon: 'envelope', link: 'mailto:jacobtrombetta@gmail.com'}
-#- {icon: 'vimeo', link: ''}
+#- {icon: 'linkedin',  link: 'https://www.linkedin.com/in/jacob-trombetta-98697b8a/'}
 
-# Customize site text
-pagination:
-  next_page: '>'
-  previous_page: '<'
+#-------------------------------
+# SEO Section
 
-sharing_button_prompt: 'Share'
+# NOTE: Providing SEO information will make this website more searchable on the internet.
 
-related_posts: 'Related work'
+seo:
+  description: 'Jacob Trombetta Music and Video Portfolio'
+  keywords: 'pedal steel, ambient, video, experimental, Jacob Trombetta'
+  author: 'Jacob Trombetta'
 
-post_date_prefix: 'Written on'
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+# If you are not using Google Analytics, please change 'google-ID' to an empty string
+google-analytics-ua: 'G-323461987'
+
+url: "https://jacobtrombetta.com"

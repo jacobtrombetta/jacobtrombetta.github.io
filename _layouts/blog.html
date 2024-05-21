@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<section>
+  <div class="blog-container">
+    {% for post in site.posts %}
+      <div class="blog-unit">
+        {% include image.html text=post.title image=post.image url=post.url %}
+        <!--<h1><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></h1>-->
+      </div>
+      {% endfor %}
+  </div>
+</section>

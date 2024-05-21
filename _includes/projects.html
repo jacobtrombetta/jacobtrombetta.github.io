@@ -1,0 +1,28 @@
+<section>
+  <div class="project-container">
+    {% for project in site.data.settings.projects %}
+      {% if project.feature == "major" %}
+        <a href="{{ site.github.url }}/projects/{{ project.url }}">
+          <div class="project-unit" data-folder="{{ site.github.url }}/projects/{{ project.url }}" style="background-image: url({{ site.github.url }}/assets/img/projects/{{ project.url }}/thumbnail.jpg)">
+            <div class="project-overlay">
+              <strong>{{ project.name }}</strong>
+            </div>
+          </div>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="project-container-half">
+    {% for project in site.data.settings.projects %}
+      {% if project.feature == "minor" %}
+        <a href="{{ site.github.url }}/projects/{{ project.url }}">
+          <div class="project-unit-half" data-folder="{{ site.github.url }}/projects/{{ project.url }}" style="background-image: url({{ site.github.url }}/assets/img/projects/{{ project.url }}/thumbnail.jpg)">
+            <div class="project-overlay-half">
+              <strong>{{ project.name }}</strong>
+            </div>
+          </div>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
