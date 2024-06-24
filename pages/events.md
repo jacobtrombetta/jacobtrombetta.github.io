@@ -5,8 +5,9 @@ permalink: /events
 ---
 ### Upcoming events
 
+[1 July, 2024 - The House of Blues, Cleveland, OH](https://www.houseofblues.com/cleveland/EventDetail?tmeventid=vv16AZkvk-sZA5e7Ge&offerid=0) - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/) opening for [Ziggy Alberts](https://ziggyalberts.com/)
 
-26 July, 2024 - The Rialto Theater, Kenmore, OH - [Phantom Lease presents Goldline My Coffin with Plotline](https://www.therialtotheatre.com/calendar/2024/7/26/phantom-lease-plotline-072624) - [tickets here](https://www.therialtotheatre.com/tickets/phantom-lease-plotline-072624)
+[26 July, 2024 - The Rialto Theater, Kenmore, OH](https://www.therialtotheatre.com/calendar/2024/7/26/phantom-lease-plotline-072624) - [Phantom Lease](/projects/phantom_lease) presents Goldline My Coffin with Plotline - [tickets here](https://www.therialtotheatre.com/tickets/phantom-lease-plotline-072624)
 
 ### Past events
 
