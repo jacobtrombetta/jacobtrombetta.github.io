@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ondelette - The Digital Cloud videos"
+title: "Ondelette videos"
 author: "Jacob Trombetta"
 categories: video
 tags: [ondelette]
