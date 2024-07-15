@@ -9,6 +9,10 @@ permalink: /events
 
 [1 August, 2024 - The Jenks Transmission Shop, Cuyhoga Falls, OH](https://jenks1929.com/pages/live-music-performance) - Mary Riley & Jacob Trombetta duo
 
+9 August, 2024 - House Party, Cuyahoga Falls, OH - Greening and Lemon Quartet - [contact for address](/contact)
+
+24 August, 2024 - Garden Party, Cleveland, OH - Greening - [contact for address](/contact)
+
 [13 September, 2024 - Harvest Moon at the Cleveland Botancial Garden, Cleveland, OH](https://holdenfg.org/events/cleveland-botanical-garden/harvest-moon/) - as part of Greening
 
 ### Past events
