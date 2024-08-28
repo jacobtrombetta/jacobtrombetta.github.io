@@ -9,6 +9,10 @@ permalink: /events
 
 [13 September, 2024 - Harvest Moon at the Cleveland Botancial Garden, Cleveland, OH](https://holdenfg.org/events/cleveland-botanical-garden/harvest-moon/) - as part of Greening
 
+[27 September, 2024 - Bar Lucci, Kent, OH](https://www.barluccikent.com/) - as part of [Phantom Lease](https://sites.google.com/view/phantomlease/home) with [Plotline](https://www.instagram.com/plotline.ak/)
+
+17 October, 2024 - Collide Arts Fundraiser, Cuyhoga Falls, OH - Mary Riley & Jacob Trombetta play some cosmic country songs. Check back for more info.
+
 ### Past events
 [26 July, 2024 - The Rialto Theater, Kenmore, OH](https://www.therialtotheatre.com/calendar/2024/7/26/phantom-lease-plotline-072624) - [Phantom Lease](/projects/phantom_lease) presents Goldline My Coffin with Plotline - [tickets here](https://www.therialtotheatre.com/tickets/phantom-lease-plotline-072624)
 
