@@ -9,7 +9,7 @@ permalink: /events
 
 [13 September, 2024 - Harvest Moon at the Cleveland Botancial Garden, Cleveland, OH](https://holdenfg.org/events/cleveland-botanical-garden/harvest-moon/) - as part of Greening
 
-[27 September, 2024 - Bar Lucci, Kent, OH](https://www.barluccikent.com/) - as part of [Phantom Lease](https://sites.google.com/view/phantomlease/home) with [Plotline](https://www.instagram.com/plotline.ak/)
+[28 September, 2024 - Bar Lucci, Kent, OH](https://www.barluccikent.com/) - as part of [Phantom Lease](https://sites.google.com/view/phantomlease/home) with [Plotline](https://www.instagram.com/plotline.ak/)
 
 17 October, 2024 - Collide Arts Fundraiser, Cuyahoga Falls, OH - Mary Riley & Jacob Trombetta play some cosmic country songs. Check back for more info.
 
