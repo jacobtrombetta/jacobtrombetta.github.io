@@ -4,8 +4,6 @@ title: events
 permalink: /events
 ---
 ### Upcoming events
-[28 September, 2024 - Bar Lucci, Kent, OH](https://www.barluccikent.com/) - [Phantom Lease](https://sites.google.com/view/phantomlease/home) with [Plotline](https://www.instagram.com/plotline.ak/) and Brutal Bedtime
-
 13 October, 2024 - Breakfast show, Novelty, OH - Greeing - [contact for address](/contact)
 
 [17 October, 2024 - Collide Arts Fundraiser, Cuyahoga Falls, OH](https://www.facebook.com/events/1056899266113451/) - Mary Riley & Jacob Trombetta play some cosmic country songs
@@ -13,6 +11,8 @@ permalink: /events
 18 October, 2024 - The Roxy, Minerva, OH - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/)
 
 ### Past events
+28 September, 2024 - Bar Lucci, Kent, OH - [Phantom Lease](https://sites.google.com/view/phantomlease/home) with [Plotline](https://www.instagram.com/plotline.ak/) and Brutal Bedtime
+
 13 September, 2024 - Harvest Moon at the Cleveland Botancial Garden, Cleveland, OH - Greening
 
 31 August, 2024 - Garden Party in Ohio City, Cleveland, OH - Greening
