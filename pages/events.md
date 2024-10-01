@@ -6,8 +6,6 @@ permalink: /events
 ### Upcoming events
 13 October, 2024 - Breakfast show, Novelty, OH - Greeing - [contact for address](/contact)
 
-[17 October, 2024 - Collide Arts Fundraiser, Cuyahoga Falls, OH](https://www.facebook.com/events/1056899266113451/) - Mary Riley & Jacob Trombetta play some cosmic country songs
-
 18 October, 2024 - The Roxy, Minerva, OH - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/)
 
 ### Past events
