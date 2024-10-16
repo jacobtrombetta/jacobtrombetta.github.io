@@ -6,7 +6,7 @@ permalink: /events
 ### Upcoming events
 18 October, 2024 - The Roxy, Minerva, OH - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/)
 
-26 November, 2024 - [The Rialto, Kenmore, OH](https://www.therialtotheatre.com/calendar/2024/11/26/goodmorning-valentine-anya-van-rose-horses-4k) - playing pedal steel in Horses 4k suporting [Anya Van Rose](https://www.anyavanrose.com/) and [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
+26 November, 2024 - [The Rialto, Kenmore, OH](https://www.therialtotheatre.com/calendar/2024/11/26/goodmorning-valentine-anya-van-rose-horses-4k) - playing pedal steel in Horses 4k supporting [Anya Van Rose](https://www.anyavanrose.com/) and [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
 
 13 December, 2024 - [The Cleveland Museum of Art, Cleveland, OH](https://www.clevelandart.org/events/music-galleries-jacob-trombetta) - ambient pedal steel in the gallery
 
