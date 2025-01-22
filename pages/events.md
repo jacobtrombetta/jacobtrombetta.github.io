@@ -4,11 +4,17 @@ title: events
 permalink: /events
 ---
 ### Upcoming events
-26 November, 2024 - [The Rialto, Kenmore, OH](https://www.therialtotheatre.com/calendar/2024/11/26/goodmorning-valentine-anya-van-rose-horses-4k) - playing pedal steel in Horses 4k supporting [Anya Van Rose](https://www.anyavanrose.com/) and [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
+15 Feburary, 2025 - The Little Rose Tavern, Cleveland, OH - as part of [talons'](https://talons.bandcamp.com/)
+
+9 March, 2025 - American Legion Canteen #19, Akron, OH - as part of [Phantom Lease](https://sites.google.com/view/phantomlease/home)
+
+### Past events
+18 January, 2025 - The CAVE, Akron, OH - playing pedal steel as part of improvisational duo called Horses 4k
 
 13 December, 2024 - [The Cleveland Museum of Art, Cleveland, OH](https://www.clevelandart.org/events/music-galleries-jacob-trombetta) - ambient pedal steel in the gallery
 
-### Past events
+26 November, 2024 - [The Rialto, Kenmore, OH](https://www.therialtotheatre.com/calendar/2024/11/26/goodmorning-valentine-anya-van-rose-horses-4k) - playing pedal steel in Horses 4k supporting [Anya Van Rose](https://www.anyavanrose.com/) and [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
+
 18 October, 2024 - The Roxy, Minerva, OH - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/)
 
 28 September, 2024 - Bar Lucci, Kent, OH - [Phantom Lease](https://sites.google.com/view/phantomlease/home) with [Plotline](https://www.instagram.com/plotline.ak/) and Brutal Bedtime
