@@ -4,12 +4,18 @@ title: events
 permalink: /events
 ---
 ### Upcoming events
-15 Feburary, 2025 - The Little Rose Tavern, Cleveland, OH - as part of [talons'](https://talons.bandcamp.com/)
+15 Feburary, 2025 - [The Little Rose Tavern](https://www.instagram.com/The_little_rose_tavern/), Cleveland, OH - as part of [talons'](https://talons.bandcamp.com/)
 
-9 March, 2025 - American Legion Canteen #19, Akron, OH - as part of [Phantom Lease](https://sites.google.com/view/phantomlease/home)
+1 March, 2025 - [Goodyear Branch Library](https://akronlibrary.libnet.info/event/12825878), Akron, OH - solo ambient pedal steel at Music and Mindful Mornings, 11:00am until 1:00pm
+
+1 March, 2025 - Rubicon Cinema, Akron, OH - as part of [Horses 4k](https://www.horses4k.com/) 
+
+9 March, 2025 - [American Legion Canteen #19](https://www.instagram.com/alpost19canteen/), Akron, OH - as part of [Phantom Lease](https://sites.google.com/view/phantomlease/home)
+
+20 March, 2025 - The Grog Shop, Cleveland, OH - as part of [Horses 4k](https://www.horses4k.com/)
 
 ### Past events
-18 January, 2025 - The CAVE, Akron, OH - playing pedal steel as part of improvisational duo called Horses 4k
+18 January, 2025 - The CAVE, Akron, OH - playing pedal steel as part of improvisational duo called [Horses 4k](https://www.horses4k.com/)
 
 13 December, 2024 - [The Cleveland Museum of Art, Cleveland, OH](https://www.clevelandart.org/events/music-galleries-jacob-trombetta) - ambient pedal steel in the gallery
 
@@ -19,15 +25,15 @@ permalink: /events
 
 28 September, 2024 - Bar Lucci, Kent, OH - [Phantom Lease](https://sites.google.com/view/phantomlease/home) with [Plotline](https://www.instagram.com/plotline.ak/) and Brutal Bedtime
 
-13 September, 2024 - Harvest Moon at the Cleveland Botancial Garden, Cleveland, OH - Greening
+13 September, 2024 - Harvest Moon at the Cleveland Botancial Garden, Cleveland, OH - as part of [Greening](https://www.greeningmusic.com/)
 
-31 August, 2024 - Garden Party in Ohio City, Cleveland, OH - Greening
+31 August, 2024 - Garden Party in Ohio City, Cleveland, OH - as part of [Greening](https://www.greeningmusic.com/)
 
 26 July, 2024 - The Rialto Theater, Kenmore, OH - [Phantom Lease](/projects/phantom_lease) presents Gold Line My Coffin with Plotline
 
 1 August, 2024 - The Jenks Transmission Shop, Cuyhoga Falls, OH - Mary Riley & Jacob Trombetta duo
 
-9 August, 2024 - House Party, Cuyahoga Falls, OH - Greening and Lemon Quartet
+9 August, 2024 - House Party, Cuyahoga Falls, OH - as part of [Greening](https://www.greeningmusic.com/) and Lemon Quartet
 
 1 July, 2024 - The House of Blues, Cleveland, OH - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/) opening for [Ziggy Alberts](https://ziggyalberts.com/)
 
