@@ -14,6 +14,8 @@ permalink: /events
 
 20 March, 2025 - The Grog Shop, Cleveland, OH - as part of [Horses 4k](https://www.horses4k.com/)
 
+17 May, 2025 - The Rialto, Kenmore, OH - as part of [Phantom Lease](/projects/phantom_lease)
+
 ### Past events
 18 January, 2025 - The CAVE, Akron, OH - playing pedal steel as part of improvisational duo called [Horses 4k](https://www.horses4k.com/)
 
