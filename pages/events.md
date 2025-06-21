@@ -5,19 +5,23 @@ permalink: /events
 ---
 
 ### Upcoming events
-6 June, 2025 - [Waterloo Tower Stage](https://www.eventbrite.com/e/waterloo-makes-music-guy-snowdon-the-citizens-and-goodmorning-valentine-tickets-1301203076429?aff=oddtdtcreator), Cleveland, OH - as part of [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
-
-12 June, 2025 - [The Purple Fiddle](https://purplefiddle.com/), Thomas, WV - as part of [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
-
-13 June, 2025 - [Redbeard Brewing](https://www.redbeardbrews.com/), Staunton, VA - as part of [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
-
-14 June, 2025 - [American Legion Canteen #19](https://www.instagram.com/alpost19canteen/), Akron, OH - as part of [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
-
 25, June, 2025 - [The Matinee](https://www.instagram.com/thematineebar/?hl=en), Akron, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo) with Penultimate Gaze, Bellysauce
+
+1, August, 2025 - The Electric Company, Akron, OH - [Horses 4k](https://www.horses4k.rodeo) NINA release show, more details TBA
+
+6, September, 2025 - The Electric Frakenstein, Akron, OH - playing pedal steel with the Robert Ethington Quintet
 
 31, October, 2025 - [CAVE](https://www.caveakron.org/calendar/noise-of-the-living-dead-3-tba/), Akron, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo) as part of NOISE OF THE LIVING DEAD 3
 
 ### Past events
+14 June, 2025 - [American Legion Canteen #19](https://www.instagram.com/alpost19canteen/), Akron, OH - as part of [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
+
+13 June, 2025 - [Redbeard Brewing](https://www.redbeardbrews.com/), Staunton, VA - as part of [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
+
+12 June, 2025 - [The Purple Fiddle](https://purplefiddle.com/), Thomas, WV - as part of [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
+
+6 June, 2025 - [Waterloo Tower Stage](https://www.eventbrite.com/e/waterloo-makes-music-guy-snowdon-the-citizens-and-goodmorning-valentine-tickets-1301203076429?aff=oddtdtcreator), Cleveland, OH - as part of [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
+
 17 May, 2025 - The Rialto, Kenmore, OH - as part of [Phantom Lease](/projects/phantom_lease)
 
 9, April, 2025 - [Mistake By the Lake](https://mbtlrecords.com/), Cleveland, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo) along with Water is the Sun, Perpetual Amnesia
