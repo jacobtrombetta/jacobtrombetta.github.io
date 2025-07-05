@@ -10,9 +10,9 @@ permalink: /projects
 <a href="/projects/discrete_spectrum">Discrete Spectrum</a> |
 <a href="https://www.horses4k.rodeo">Horses 4k</a> |
 <a href="/projects/glenn_lazear">Glenn Lazear</a> |
-<!-- <a href="/projects/greening">Greening</a> | -->
 <a href="/projects/phantom_lease">Phantom Lease</a><br>
 
+<a href="/projects/greening">Greening</a> |
 <a href="/projects/krumel">Krümel</a> |
 <a href="/projects/ondelette">Ondelette</a> |
 <a href="/projects/comfort_clouds">Comfort Clouds</a> |
