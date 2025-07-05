@@ -5,15 +5,15 @@ permalink: /events
 ---
 
 ### Upcoming events
-25 June, 2025 - [The Matinee](https://www.instagram.com/thematineebar/?hl=en), Akron, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo) with Penultimate Gaze, Bellysauce
-
-1 August, 2025 - The Electric Company, Akron, OH - [Horses 4k](https://www.horses4k.rodeo) NINA release show, more details TBA
+1 August, 2025 - The Electric Company, Akron, OH - [Horses 4k](https://www.horses4k.rodeo) NINA release show, with Lemon Quartet and Stephan Haluska
 
 6 September, 2025 - The Electric Frakenstein, Akron, OH - playing pedal steel with the Robert Ethington Quintet
 
 31 October, 2025 - [CAVE](https://www.caveakron.org/calendar/noise-of-the-living-dead-3-tba/), Akron, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo) as part of NOISE OF THE LIVING DEAD 3
 
 ### Past events
+25 June, 2025 - [The Matinee](https://www.instagram.com/thematineebar/?hl=en), Akron, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo) with Penultimate Gaze, Bellysauce
+
 14 June, 2025 - [American Legion Canteen #19](https://www.instagram.com/alpost19canteen/), Akron, OH - as part of [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
 
 13 June, 2025 - [Redbeard Brewing](https://www.redbeardbrews.com/), Staunton, VA - as part of [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
