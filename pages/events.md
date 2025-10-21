@@ -5,13 +5,15 @@ permalink: /events
 ---
 
 ### Upcoming events
-4 October, 2025 - [American Legion Canteen #19](https://www.instagram.com/alpost19canteen/), Akron, OH - as part of [Phantom Lease](/projects/phantom_lease) album release show with Mister Mischevious and Dirty Line
-
-9 October, 2025 - The Beachland Tavern, Cleveland, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo), supporting [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
-
 31 October, 2025 - [CAVE](https://www.caveakron.org/calendar/noise-of-the-living-dead-3-tba/), Akron, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo) as part of NOISE OF THE LIVING DEAD 3
 
+22 November, 2025 - [The Electric Frakenstein](https://www.instagram.com/the_electric_frankenstein/), Akron, OH - playing pedal steel with [Robert Ethington Quintet](https://www.robertethington.com/) with support from [K. Freund](https://kfreund.bandcamp.com/)
+
 ### Past events
+9 October, 2025 - The Beachland Tavern, Cleveland, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo), supporting [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
+
+4 October, 2025 - [American Legion Canteen #19](https://www.instagram.com/alpost19canteen/), Akron, OH - as part of [Phantom Lease](/projects/phantom_lease) album release show with Mister Mischevious and Dirty Line
+
 13 September, 2025 - The Holden Arboretum, Kirtland, OH - playing bass with Sommer Tolan, pedal steel with [Anya Van Rose](https://www.anyavanrose.com/), and guitar with Mary Riley
 
 5 September, 2025 - The Lockview Patio, Akron, OH - playing pedal steel with the [Robert Ethington Quintet](https://www.robertethington.com/) with [Brutal Bedtime](https://brutalbedtime.bandcamp.com/album/the-most-brutal-of-bedtimes) supporting
