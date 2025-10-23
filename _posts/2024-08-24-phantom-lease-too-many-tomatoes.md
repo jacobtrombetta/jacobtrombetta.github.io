@@ -2,7 +2,7 @@
 layout: post
 title: "Phantom Lease - Too Many Tomatoes"
 author: "Jacob Trombetta"
-categories: [music]
+categories: [music, video]
 tags: [phantomlease]
 image: pl/pl_tmt_01.jpg
 ---
@@ -13,10 +13,8 @@ image: pl/pl_tmt_01.jpg
   </iframe>
 </div>
 
-Listen on all streaming services.
+The first single from Phantom Lease's 2025 album GOLDLINE MY COFFIN.
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1BmQcevTq6LGYAWgL1B4tG?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+Listen on all streaming services - [Spotify](https://open.spotify.com/track/1BmQcevTq6LGYAWgL1B4tG?si=001559692c2b4c41) / [Apple Music](https://music.apple.com/us/song/too-many-tomatoes/1763113849) / [Tidal](https://tidal.com/track/381590777/u)
 
-<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/too-many-tomatoes-single/1763113517"></iframe>
-
-<iframe id='AmazonMusicEmbedB0DD9LH3FQ' src='https://music.amazon.com/embed/B0DD9LH3FQ/?id=GWenFxCkmj&marketplaceId=ATVPDKIKX0DER&musicTerritory=US' width='100%' height='352px' frameBorder='0' style='border-radius:20px;max-width:'></iframe>
+More info on Pantom Lease's [website](https://www.phantomlease.com/)
