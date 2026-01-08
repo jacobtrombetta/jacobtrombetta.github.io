@@ -12,22 +12,4 @@ With the pedal steel as a focal point, Trombetta brings compositional expertise 
         
 If you like ambient electro-acoustic music made by an Appalachian man, you are in the right place.
 
-{% include image_static.html image="jt/jt_ps_cle_bg.jpg" %}
-<div align="center">
-Live at the Cleveland Botanical Garden
-</div>
-
-<!--
-<div align="center">
-  Works
-</div>
-
-<div>
-  {% for post in site.posts %}
-    {% if post.tags contains "jacobtrombetta" %}
-      <h4 align="center">{{ post.title }}</h4>
-      {% include image.html text=post.title image=post.image url=post.url %}
-    {% endif %}
-  {% endfor %}
-</div>
--->
+{% include image_static.html image="jt/jt_credit_s.g._inskeep.jpg" %}

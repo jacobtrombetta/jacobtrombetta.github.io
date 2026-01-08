@@ -5,11 +5,19 @@ permalink: /events
 ---
 
 ### Upcoming events
-31 October, 2025 - [CAVE](https://www.caveakron.org/calendar/noise-of-the-living-dead-3-tba/), Akron, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo) as part of NOISE OF THE LIVING DEAD 3
+14 Feburary, 2026 - [Orchid Rodeo: Cleveland Botanical Garden is for Lovers](https://holdenfg.org/events/cleveland-botanical-garden/valentines-day/), Cleveland, OH - Mary Riley & Jacob Trombetta
 
-22 November, 2025 - [The Electric Frakenstein](https://www.instagram.com/the_electric_frankenstein/), Akron, OH - playing pedal steel with [Robert Ethington Quintet](https://www.robertethington.com/) with support from [K. Freund](https://kfreund.bandcamp.com/)
+28 Feburary, 2026 - [Akron Art Museum](https://akronartmuseum.org/), Akron, OH - as part of [Horses 4k](https://www.horses4k.rodeo)
+
+14 March, 2026 - Warehouse show (details TBA), Canton, OH - as part of [Anya Van Rose](https://www.anyavanrose.com/)
+
+30 April, 2026 - House show (details TBA), Akron, OH - ambient pedal steel supporting [Luke Schneider](https://lukeschneider.bandcamp.com/)
 
 ### Past events
+22 November, 2025 - [The Electric Frakenstein](https://www.instagram.com/the_electric_frankenstein/), Akron, OH - playing pedal steel with [Robert Ethington Quintet](https://www.robertethington.com/) with support from [K. Freund](https://kfreund.bandcamp.com/)
+
+31 October, 2025 - [CAVE](https://www.caveakron.org/calendar/noise-of-the-living-dead-3-tba/), Akron, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo) as part of NOISE OF THE LIVING DEAD 3
+
 9 October, 2025 - The Beachland Tavern, Cleveland, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo), supporting [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
 
 4 October, 2025 - [American Legion Canteen #19](https://www.instagram.com/alpost19canteen/), Akron, OH - as part of [Phantom Lease](/projects/phantom_lease) album release show with Mister Mischevious and Dirty Line
