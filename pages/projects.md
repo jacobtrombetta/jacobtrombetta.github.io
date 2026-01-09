@@ -8,7 +8,7 @@ permalink: /projects
 <a href="/projects/video">Video</a> <br>
 
 <a href="/projects/discrete_spectrum">Discrete Spectrum</a> |
-<a href="https://www.horses4k.rodeo">Horses 4k</a> |
+<a href="/projects/horses_4k">Horses 4k</a> |
 <a href="/projects/glenn_lazear">Glenn Lazear</a> |
 <a href="/projects/phantom_lease">Phantom Lease</a><br>
 
