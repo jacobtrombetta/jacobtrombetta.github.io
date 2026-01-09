@@ -8,11 +8,13 @@ image: h4k/h4k_nina.jpg
 ---
 "NINA, the debut work of Horses 4K, is an electronic album with Americana as its source material. The duo of Jacob Trombetta and Robin Guiler feed pedal steel guitar into samplers and synthesizers, taking a distinctive instrument and manipulating it into something sometimes unrecognisable and otherworldly." - [The Quietus](https://thequietus.com/quietus-reviews/horses-4k-nina-review/)
 
-<iframe style="border: 0; width: 100%; height: 406px;" 
-    src="https://bandcamp.com/EmbeddedPlayer/album=1125516665/size=large/bgcol=ffffff/linkcol=f171a2/artwork=none/transparent=true/" seamless>
-    <a href="https://discretespectrum.bandcamp.com/album/nina">Nina by Horses 4k
-    </a>
-</iframe>
+<div class="bandcamp">
+    <iframe style="border: 0; width: 450px; height: 406px;" 
+        src="https://bandcamp.com/EmbeddedPlayer/album=1125516665/size=large/bgcol=ffffff/linkcol=f171a2/artwork=none/transparent=true/" seamless>
+        <a href="https://discretespectrum.bandcamp.com/album/nina">Nina by Horses 4k
+        </a>
+    </iframe>
+</div>
 
 <div style="text-align: center;">
     Released August 1, 2025 on Discrete Spectrum
