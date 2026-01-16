@@ -5,9 +5,9 @@ permalink: /events
 ---
 
 ### Upcoming events
-14 Feburary, 2026 - [Orchid Rodeo: Cleveland Botanical Garden is for Lovers](https://holdenfg.org/events/cleveland-botanical-garden/valentines-day/), Cleveland, OH - Mary Riley & Jacob Trombetta
+7 Feburary, 2026 - [Akron Art Museum](https://akronartmuseum.org/), Akron, OH - as part of [Horses 4k](https://www.horses4k.rodeo)
 
-28 Feburary, 2026 - [Akron Art Museum](https://akronartmuseum.org/), Akron, OH - as part of [Horses 4k](https://www.horses4k.rodeo)
+14 Feburary, 2026 - [Orchid Rodeo: Cleveland Botanical Garden is for Lovers](https://holdenfg.org/events/cleveland-botanical-garden/valentines-day/), Cleveland, OH - Mary Riley & Jacob Trombetta
 
 14 March, 2026 - Warehouse show (details TBA), Canton, OH - as part of [Anya Van Rose](https://www.anyavanrose.com/)
 
