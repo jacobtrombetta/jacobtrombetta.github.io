@@ -5,18 +5,24 @@ permalink: /events
 ---
 
 ### Upcoming events
-7 Feburary, 2026 - [Akron Art Museum](https://akronartmuseum.org/), Akron, OH - as part of [Horses 4k](https://www.horses4k.rodeo)
+21 March, 2026 - [Sleep Smoking single release show - on set](https://www.facebook.com/events/1241491724223542?active_tab=about), Canton, OH - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/) with support from [Fred Thomas](www.fredthomasmusic.bandcamp.com)
 
-14 Feburary, 2026 - [Orchid Rodeo: Cleveland Botanical Garden is for Lovers](https://holdenfg.org/events/cleveland-botanical-garden/valentines-day/), Cleveland, OH - Mary Riley & Jacob Trombetta
+11 April, 2026 - [The Electric Frakenstein](https://www.instagram.com/the_electric_frankenstein/), Akron, OH - playing pedal steel with [Robert Ethington Quintet](https://www.robertethington.com/) with support from James Matthes Haas
 
-14 March, 2026 - Warehouse show (details TBA), Canton, OH - as part of [Anya Van Rose](https://www.anyavanrose.com/)
+12 April, 2026 - Rubicon Cinema, Akron, OH - playing pedal steel with [Brutal Bedtime](https://brutalbedtime.bandcamp.com/album/the-most-brutal-of-bedtimes)
 
 30 April, 2026 - House show (details TBA), Akron, OH - ambient pedal steel supporting [Luke Schneider](https://lukeschneider.bandcamp.com/)
 
 ### Past events
+7 March, 2026 - The CAVE, Akron, OH - as part of [Phantom Lease](/projects/phantom_lease) with support from The Bics and Penultimate Gaze
+
+14 Feburary, 2026 - [Orchid Rodeo: Cleveland Botanical Garden is for Lovers](https://holdenfg.org/events/cleveland-botanical-garden/valentines-day/), Cleveland, OH - Mary Riley & Jacob Trombetta
+
+7 Feburary, 2026 - [Akron Art Museum](https://akronartmuseum.org/), Akron, OH - as part of [Horses 4k](https://www.horses4k.rodeo)
+
 22 November, 2025 - [The Electric Frakenstein](https://www.instagram.com/the_electric_frankenstein/), Akron, OH - playing pedal steel with [Robert Ethington Quintet](https://www.robertethington.com/) with support from [K. Freund](https://kfreund.bandcamp.com/)
 
-31 October, 2025 - [CAVE](https://www.caveakron.org/calendar/noise-of-the-living-dead-3-tba/), Akron, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo) as part of NOISE OF THE LIVING DEAD 3
+31 October, 2025 - The CAVE, Akron, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo) as part of NOISE OF THE LIVING DEAD 3
 
 9 October, 2025 - The Beachland Tavern, Cleveland, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo), supporting [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
 
