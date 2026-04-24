@@ -5,15 +5,19 @@ permalink: /events
 ---
 
 ### Upcoming events
-21 March, 2026 - [Sleep Smoking single release show - on set](https://www.facebook.com/events/1241491724223542?active_tab=about), Canton, OH - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/) with support from [Fred Thomas](www.fredthomasmusic.bandcamp.com)
+30 April, 2026 - House show, Orrville, OH - ambient pedal steel supporting [Luke Schneider](https://lukeschneider.bandcamp.com/)
+
+8 May, 2026 - [The Grog Shop](https://grogshop.gs/tm-event/katy-kirby-with-grumpy-nate-head-kid-lake-anya-van-rose/) - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/) supporting [Katy Kirby](https://katykirbyon.bandcamp.com/album/blue-raspberry-deluxe), [Grumpy](https://www.instagram.com/grumpyismyleastfavoriteband/), [Nate Head](https://www.instagram.com/verysillynate/), & [Kid Lake](https://www.instagram.com/kidlakellie/)
+
+29 August, 2026 - [Visible Voice](https://www.visiblevoicebooks.com/) - Cleveland, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo)
+
+### Past events
+12 April, 2026 - Rubicon Cinema, Akron, OH - playing pedal steel with [Brutal Bedtime](https://brutalbedtime.bandcamp.com/album/the-most-brutal-of-bedtimes)
 
 11 April, 2026 - [The Electric Frakenstein](https://www.instagram.com/the_electric_frankenstein/), Akron, OH - playing pedal steel with [Robert Ethington Quintet](https://www.robertethington.com/) with support from James Matthes Haas
 
-12 April, 2026 - Rubicon Cinema, Akron, OH - playing pedal steel with [Brutal Bedtime](https://brutalbedtime.bandcamp.com/album/the-most-brutal-of-bedtimes)
+21 March, 2026 - [Sleep Smoking single release show - on set](https://www.facebook.com/events/1241491724223542?active_tab=about), Canton, OH - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/) with support from [Fred Thomas](www.fredthomasmusic.bandcamp.com)
 
-30 April, 2026 - House show (details TBA), Akron, OH - ambient pedal steel supporting [Luke Schneider](https://lukeschneider.bandcamp.com/)
-
-### Past events
 7 March, 2026 - The CAVE, Akron, OH - as part of [Phantom Lease](/projects/phantom_lease) with support from The Bics and Penultimate Gaze
 
 14 Feburary, 2026 - [Orchid Rodeo: Cleveland Botanical Garden is for Lovers](https://holdenfg.org/events/cleveland-botanical-garden/valentines-day/), Cleveland, OH - Mary Riley & Jacob Trombetta
