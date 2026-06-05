@@ -5,13 +5,17 @@ permalink: /events
 ---
 
 ### Upcoming events
-30 April, 2026 - House show, Orrville, OH - ambient pedal steel supporting [Luke Schneider](https://lukeschneider.bandcamp.com/)
-
-8 May, 2026 - [The Grog Shop](https://grogshop.gs/tm-event/katy-kirby-with-grumpy-nate-head-kid-lake-anya-van-rose/) - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/) supporting [Katy Kirby](https://katykirbyon.bandcamp.com/album/blue-raspberry-deluxe), [Grumpy](https://www.instagram.com/grumpyismyleastfavoriteband/), [Nate Head](https://www.instagram.com/verysillynate/), & [Kid Lake](https://www.instagram.com/kidlakellie/)
+13 June, 2026 - [The Birdhouse](https://www.instagram.com/_the_birdhouse_/) - Lakewood, OH - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/), supporting [Tiny Vipers](https://www.instagram.com/tiny_vipers/) and [Evelyn Frances](https://www.instagram.com/evelynfrancesmusic/)
 
 29 August, 2026 - [Visible Voice](https://www.visiblevoicebooks.com/) - Cleveland, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo)
 
 ### Past events
+29 May, 2026 - Baxter's Speakeasy - Akron, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo), supporting [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
+
+8 May, 2026 - [The Grog Shop](https://grogshop.gs/tm-event/katy-kirby-with-grumpy-nate-head-kid-lake-anya-van-rose/) - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/) supporting [Katy Kirby](https://katykirbyon.bandcamp.com/album/blue-raspberry-deluxe), [Grumpy](https://www.instagram.com/grumpyismyleastfavoriteband/), [Nate Head](https://www.instagram.com/verysillynate/), & [Kid Lake](https://www.instagram.com/kidlakellie/)
+
+30 April, 2026 - House show, Orrville, OH - ambient pedal steel supporting [Luke Schneider](https://lukeschneider.bandcamp.com/)
+
 12 April, 2026 - Rubicon Cinema, Akron, OH - playing pedal steel with [Brutal Bedtime](https://brutalbedtime.bandcamp.com/album/the-most-brutal-of-bedtimes)
 
 11 April, 2026 - [The Electric Frakenstein](https://www.instagram.com/the_electric_frankenstein/), Akron, OH - playing pedal steel with [Robert Ethington Quintet](https://www.robertethington.com/) with support from James Matthes Haas
