@@ -7,6 +7,14 @@ To build and serve the site:
 ./scripts/build.sh
 ```
 
+## Docker
+To build and serve the site in Docker instead:
+```sh
+docker build -t jacobtrombetta-site .
+docker run --rm -it -p 4000:4000 -v "$(pwd)":/workspace jacobtrombetta-site
+```
+Then visit [http://localhost:4000](http://localhost:4000). The `-v` flag mounts the repo into the container so edits on your machine are picked up by Jekyll's live rebuild.
+
 ## Credits
 
 ### Creator
