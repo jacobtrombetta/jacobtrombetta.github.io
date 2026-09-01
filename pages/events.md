@@ -5,11 +5,17 @@ permalink: /events
 ---
 
 ### Upcoming events
-13 June, 2026 - [The Birdhouse](https://www.instagram.com/_the_birdhouse_/) - Lakewood, OH - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/), supporting [Tiny Vipers](https://www.instagram.com/tiny_vipers/) and [Evelyn Frances](https://www.instagram.com/evelynfrancesmusic/)
+5 September, 2026 - [FUSE-BOX A/V](https://au-purdum.com/fuse-box-a/v-calendar) - Cincinnati, OH - solo set with [Rabid Animal Parade](https://darkworldrecords.bandcamp.com/album/decaying-wilds), [Pipitón](https://pipiton.bandcamp.com/)
 
-29 August, 2026 - [Visible Voice](https://www.visiblevoicebooks.com/) - Cleveland, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo)
+6 September, 2026 - [Mr. Zub's Deli & Bar](https://www.facebook.com/events/2821618304873195) - Akron, OH - in my duo [Horses 4k](https://www.horses4k.rodeo) with [Swisher](https://unifactor.bandcamp.com/album/total-rat-fink-the-tornado-mix) and False UNO
+
+17 September, 2026 - [Little Rose Tavern]() - Cleveland, OH - in my duo [Horses 4k](https://www.horses4k.rodeo) with [Shane Riley](https://shanerileysound.com/) and [Sam Goldberg](https://samgoldberg.bandcamp.com/)
 
 ### Past events
+29 August, 2026 - [Visible Voice](https://www.visiblevoicebooks.com/) - Cleveland, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo)
+
+13 June, 2026 - [The Birdhouse](https://www.instagram.com/_the_birdhouse_/) - Lakewood, OH - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/), supporting [Tiny Vipers](https://www.instagram.com/tiny_vipers/) and [Evelyn Frances](https://www.instagram.com/evelynfrancesmusic/)
+
 29 May, 2026 - Baxter's Speakeasy - Akron, OH - playing pedal steel with [Horses 4k](https://www.horses4k.rodeo), supporting [Goodmorning Valentine](https://goodmorningvalentine.bandcamp.com/)
 
 8 May, 2026 - [The Grog Shop](https://grogshop.gs/tm-event/katy-kirby-with-grumpy-nate-head-kid-lake-anya-van-rose/) - playing pedal steel with [Anya Van Rose](https://www.anyavanrose.com/) supporting [Katy Kirby](https://katykirbyon.bandcamp.com/album/blue-raspberry-deluxe), [Grumpy](https://www.instagram.com/grumpyismyleastfavoriteband/), [Nate Head](https://www.instagram.com/verysillynate/), & [Kid Lake](https://www.instagram.com/kidlakellie/)
