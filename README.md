@@ -24,7 +24,7 @@ so finished shows move to "Past events" on their own.
 ## Project structure
 
 ```
-site.json              Site title, nav menu, social links, analytics ID
+site.json              Site title, nav menu, social links, GoatCounter code
 content/
   posts/               One file per release / video: YYYY-MM-DD-slug.html → /slug
   pages/               Every other page; the file path is the URL

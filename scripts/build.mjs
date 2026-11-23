@@ -312,10 +312,10 @@ function head(page) {
     `<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">`,
   ];
   if (ld) lines.push(`<script type="application/ld+json">${ld}</script>`);
-  if (site.analytics) {
+  // GoatCounter (no cookies). It skips localhost, so local previews aren't counted.
+  if (site.goatcounter) {
     lines.push(
-      `<script async src="https://www.googletagmanager.com/gtag/js?id=${site.analytics}"></script>`,
-      `<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","${site.analytics}");</script>`,
+      `<script data-goatcounter="https://${site.goatcounter}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>`,
     );
   }
   return lines.map((l) => `    ${l}`).join("\n");
