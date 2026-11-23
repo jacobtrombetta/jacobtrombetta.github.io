@@ -1,0 +1,20 @@
+{
+  "title": "jacob trombetta",
+  "url": "https://jacobtrombetta.com",
+  "author": "Jacob Trombetta",
+  "description": "Artist and Mathematician",
+  "analytics": "",
+  "menu": [
+    { "name": "about", "url": "/projects/music" },
+    { "name": "events", "url": "/events" },
+    { "name": "projects", "url": "/projects" },
+    { "name": "contact", "url": "/contact" }
+  ],
+  "social": [
+    { "icon": "bandcamp", "link": "https://discretespectrum.bandcamp.com/" },
+    { "icon": "instagram", "link": "https://instagram.com/jacobtrombetta" },
+    { "icon": "vimeo", "link": "https://vimeo.com/user106725791" },
+    { "icon": "github", "link": "https://github.com/jacobtrombetta" },
+    { "icon": "envelope", "link": "mailto:jacobtrombetta@gmail.com" }
+  ]
+}

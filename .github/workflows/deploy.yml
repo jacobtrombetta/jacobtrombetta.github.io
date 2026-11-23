@@ -1,0 +1,46 @@
+name: Build and deploy to GitHub Pages
+
+on:
+  push:
+    branches: ["master"]
+  # Rebuild daily so finished shows move from Upcoming to Past
+  # (assets/js/events.js also does this in the browser).
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Full history so the sitemap can use each page's real last-modified date
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Build
+        run: node scripts/build.mjs
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
