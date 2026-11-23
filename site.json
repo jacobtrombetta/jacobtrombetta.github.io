@@ -2,19 +2,71 @@
   "title": "jacob trombetta",
   "url": "https://jacobtrombetta.com",
   "author": "Jacob Trombetta",
-  "description": "Artist and Mathematician",
+  "description": "Jacob Trombetta is a multi-media artist, bringing novel applications of technology to bear in artistic spaces.",
+  "image": "jt/jt_credit_s.g._inskeep.jpg",
   "analytics": "",
   "menu": [
-    { "name": "about", "url": "/projects/music" },
-    { "name": "events", "url": "/events" },
-    { "name": "projects", "url": "/projects" },
-    { "name": "contact", "url": "/contact" }
+    {
+      "name": "about",
+      "url": "/projects/music"
+    },
+    {
+      "name": "events",
+      "url": "/events"
+    },
+    {
+      "name": "projects",
+      "url": "/projects"
+    },
+    {
+      "name": "contact",
+      "url": "/contact"
+    }
   ],
   "social": [
-    { "icon": "bandcamp", "link": "https://discretespectrum.bandcamp.com/" },
-    { "icon": "instagram", "link": "https://instagram.com/jacobtrombetta" },
-    { "icon": "vimeo", "link": "https://vimeo.com/user106725791" },
-    { "icon": "github", "link": "https://github.com/jacobtrombetta" },
-    { "icon": "envelope", "link": "mailto:jacobtrombetta@gmail.com" }
-  ]
+    {
+      "icon": "bandcamp",
+      "link": "https://discretespectrum.bandcamp.com/"
+    },
+    {
+      "icon": "instagram",
+      "link": "https://instagram.com/jacobtrombetta"
+    },
+    {
+      "icon": "vimeo",
+      "link": "https://vimeo.com/user106725791"
+    },
+    {
+      "icon": "github",
+      "link": "https://github.com/jacobtrombetta"
+    },
+    {
+      "icon": "envelope",
+      "link": "mailto:jacobtrombetta@gmail.com"
+    }
+  ],
+  "person": {
+    "description": "Multi-media artist and pedal steel player working in ambient music and code-manipulated video art.",
+    "sameAs": [
+      "https://instagram.com/jacobtrombetta",
+      "https://vimeo.com/user106725791",
+      "https://github.com/jacobtrombetta"
+    ],
+    "memberOf": [
+      {
+        "name": "Horses 4k",
+        "url": "https://horses4k.rodeo"
+      },
+      {
+        "name": "Phantom Lease",
+        "url": "https://phantomlease.com"
+      }
+    ],
+    "pages": [
+      "/",
+      "/about",
+      "/projects/music",
+      "/projects/jacob_trombetta"
+    ]
+  }
 }

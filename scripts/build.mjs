@@ -113,11 +113,11 @@ const events = JSON.parse(read("content/events.json"));
 
 // ---------- rendering ----------
 
-function card(post, { alt = "Avatar" } = {}) {
+function card(post) {
   return fill(template("card"), {
     url: post.url,
     image: post.image,
-    alt: escapeHtml(alt),
+    alt: escapeHtml(post.title),
     text: escapeHtml(post.title),
   });
 }
@@ -182,7 +182,7 @@ function main(page) {
       return fill(template("post"), {
         title: escapeHtml(page.title || ""),
         featuredImage: page.image
-          ? `    <div class="image-container">\n      <img src="/assets/img/${page.image}" alt="Avatar" class="image">\n    </div>`
+          ? `    <div class="image-container">\n      <img src="/assets/img/${page.image}" alt="${escapeHtml(page.title)}" class="image">\n    </div>`
           : "",
         content,
       });
@@ -194,10 +194,102 @@ function main(page) {
   }
 }
 
+// ---------- SEO ----------
+
+const decodeEntities = (s) =>
+  s.replace(/&nbsp;/g, " ").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(n)).replace(/&amp;/g, "&");
+
+const plainText = (html) =>
+  decodeEntities(html.replace(/<br\s*\/?>/gi, " ").replace(/<[^>]+>/g, "")).replace(/\s+/g, " ").replace(/ ([,.;:!?])/g, "$1").trim();
+
+function truncate(text, max = 160) {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max - 1);
+  return cut.slice(0, cut.lastIndexOf(" ")).replace(/[,;:.\s]+$/, "") + "…";
+}
+
+/**
+ * Meta description: front matter `description:` if set, otherwise the first
+ * paragraph of real prose in the body (skipping release dates, credits and
+ * format lines), otherwise the title plus the site description.
+ */
+function describe(page) {
+  if (page.description) return page.description;
+  if (page.url === "/") return site.description;
+  const skip = /^(released?|credits|listen|watch|music by|video by|directed by|\d|hd,|https?:)/i;
+  for (const m of page.body.matchAll(/<p>([\s\S]*?)<\/p>/g)) {
+    const text = plainText(m[1]);
+    if (text.length >= 60 && !skip.test(text)) return truncate(text);
+  }
+  return truncate(`${page.title}. ${site.description}`);
+}
+
+const imageUrl = (img) => `${site.url}/assets/img/${img.split("/").map(encodeURIComponent).join("/")}`;
+
+function person() {
+  return {
+    "@type": "Person",
+    name: site.author,
+    url: `${site.url}/`,
+    description: site.person.description,
+    image: imageUrl(site.image),
+    sameAs: site.person.sameAs,
+    memberOf: site.person.memberOf.map((g) => ({ "@type": "MusicGroup", ...g })),
+  };
+}
+
+function eventJsonLd(e) {
+  const performer = { "@type": "Person", name: site.author, url: `${site.url}/` };
+  return {
+    "@type": "MusicEvent",
+    name: `${site.author} at ${e.venue}`,
+    startDate: e.date,
+    eventStatus: "https://schema.org/EventScheduled",
+    eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+    ...(e.details ? { description: plainText(inlineLinks(e.details)) } : {}),
+    ...(e.venueUrl ? { url: e.venueUrl } : {}),
+    location: {
+      "@type": "Place",
+      name: e.venue,
+      address: {
+        "@type": "PostalAddress",
+        ...(e.city ? { addressLocality: e.city } : {}),
+        ...(e.state ? { addressRegion: e.state } : {}),
+        addressCountry: "US",
+      },
+    },
+    performer,
+  };
+}
+
+function jsonLd(page) {
+  const graph = [];
+  if (site.person.pages.includes(page.url)) graph.push(person());
+  if (page.body.includes("{{events}}")) graph.push(...events.map(eventJsonLd));
+  if (page.slug && page.date) {
+    graph.push({
+      "@type": "CreativeWork",
+      name: page.title,
+      url: site.url + page.url,
+      datePublished: page.date,
+      description: describe(page),
+      ...(page.image ? { image: imageUrl(page.image) } : {}),
+      creator: { "@type": "Person", name: site.author, url: `${site.url}/` },
+    });
+  }
+  if (!graph.length) return null;
+  const data = graph.length === 1 ? { "@context": "https://schema.org", ...graph[0] } : { "@context": "https://schema.org", "@graph": graph };
+  // Keep "</script>" from ever closing the tag early.
+  return JSON.stringify(data).replace(/</g, "\\u003c");
+}
+
 function head(page) {
   const title = page.url === "/" ? site.title : `${page.title} | ${site.title}`;
-  const description = page.description || site.description;
+  const description = describe(page);
   const canonical = site.url + page.url;
+  const image = imageUrl(page.image || site.image);
+  const ld = jsonLd(page);
   const lines = [
     `<meta charset="UTF-8">`,
     `<meta name="viewport" content="width=device-width, initial-scale=1">`,
@@ -210,12 +302,16 @@ function head(page) {
     `<meta property="og:url" content="${canonical}">`,
     `<meta property="og:title" content="${escapeHtml(page.title || site.title)}">`,
     `<meta property="og:description" content="${escapeHtml(description)}">`,
+    `<meta property="og:image" content="${image}">`,
+    `<meta property="og:image:alt" content="${escapeHtml(page.image ? page.title : site.author)}">`,
+    `<meta name="twitter:card" content="summary_large_image">`,
     `<link rel="icon" href="/favicon.ico">`,
     `<link rel="alternate" type="application/atom+xml" href="/feed.xml" title="${escapeHtml(site.title)}">`,
     `<link rel="stylesheet" href="/assets/css/all.css">`,
     `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">`,
     `<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">`,
   ];
+  if (ld) lines.push(`<script type="application/ld+json">${ld}</script>`);
   if (site.analytics) {
     lines.push(
       `<script async src="https://www.googletagmanager.com/gtag/js?id=${site.analytics}"></script>`,

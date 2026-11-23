@@ -61,6 +61,9 @@ image: jt/jt_orv_1.jpg
 - `image` is the featured image and the card thumbnail, relative to
   `assets/img/`.
 - The body is plain HTML.
+- Optional `description:` sets the search-result snippet. Without it, the
+  build uses the first real paragraph of the body (or the title plus the site
+  description).
 
 ## Adding a show
 
