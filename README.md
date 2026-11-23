@@ -36,6 +36,7 @@ assets/img/            Images, referenced as /assets/img/...
 assets/js/events.js    Moves finished shows to "Past" in the browser
 scripts/build.mjs      Builds dist/ (pages, feed.xml, sitemap.xml, robots.txt)
 scripts/serve.mjs      Local preview server
+scripts/optimize-images.sh  Resize/recompress images before committing
 ```
 
 ## Adding a release or video
@@ -66,6 +67,20 @@ image: jt/jt_orv_1.jpg
   description).
 - Optional `headTitle:` replaces the whole browser-tab / search-result title
   (normally `Title | jacob trombetta`). The home page uses it.
+
+## Adding images
+
+Put the file under `assets/img/`, then shrink it before committing:
+
+```sh
+scripts/optimize-images.sh assets/img/jt/new-photo.jpg
+```
+
+It caps the longest side at 1500px, recompresses (JPEG quality 80), and
+converts iPhone (Display P3) colors to sRGB so they don't shift. Running it with
+no arguments checks every image; already-optimized files are left alone.
+Needs ImageMagick (`brew install imagemagick`). Save photos as `.jpg`, not
+`.png`, unless they need transparency.
 
 ## Adding a show
 
