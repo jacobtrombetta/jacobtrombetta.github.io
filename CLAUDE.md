@@ -14,6 +14,7 @@ covers structure, running locally, and how to add posts and shows.
   that's expected).
 - Post front matter: `title`, `tags`, `categories`, `image` (relative to
   `assets/img/`), optional `description`. Page front matter: `title`,
-  `layout` (`post`, `page`, `contact`, or `none`), optional `description`.
+  `layout` (`post`, `page`, `contact`, or `none`), optional `description` and
+  `headTitle` (full `<title>` override).
 - Default branch is `master`; pushing deploys via
   `.github/workflows/deploy.yml`.

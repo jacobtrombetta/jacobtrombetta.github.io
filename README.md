@@ -64,6 +64,8 @@ image: jt/jt_orv_1.jpg
 - Optional `description:` sets the search-result snippet. Without it, the
   build uses the first real paragraph of the body (or the title plus the site
   description).
+- Optional `headTitle:` replaces the whole browser-tab / search-result title
+  (normally `Title | jacob trombetta`). The home page uses it.
 
 ## Adding a show
 

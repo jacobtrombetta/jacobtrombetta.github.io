@@ -285,7 +285,7 @@ function jsonLd(page) {
 }
 
 function head(page) {
-  const title = page.url === "/" ? site.title : `${page.title} | ${site.title}`;
+  const title = page.headTitle || (page.url === "/" ? site.title : `${page.title} | ${site.title}`);
   const description = describe(page);
   const canonical = site.url + page.url;
   const image = imageUrl(page.image || site.image);
@@ -300,7 +300,7 @@ function head(page) {
     `<meta property="og:site_name" content="${escapeHtml(site.title)}">`,
     `<meta property="og:type" content="${page.layout === "post" && page.date ? "article" : "website"}">`,
     `<meta property="og:url" content="${canonical}">`,
-    `<meta property="og:title" content="${escapeHtml(page.title || site.title)}">`,
+    `<meta property="og:title" content="${escapeHtml(page.headTitle || page.title || site.title)}">`,
     `<meta property="og:description" content="${escapeHtml(description)}">`,
     `<meta property="og:image" content="${image}">`,
     `<meta property="og:image:alt" content="${escapeHtml(page.image ? page.title : site.author)}">`,
