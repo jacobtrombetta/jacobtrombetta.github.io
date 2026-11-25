@@ -1122,3 +1122,14 @@ body {
   -ms-transform: translate(-50%, -50%);
 }
 
+
+/* Inline SVG icons (scripts/icons.mjs), sized and aligned like the
+   Font Awesome font icons they replace. Each icon also sets its width
+   inline, which overrides the theme's `svg { width: 100% }` rule above. */
+.icon {
+  display: inline-block;
+  height: 1em;
+  vertical-align: -0.142857em;
+  fill: currentColor;
+  overflow: visible;
+}

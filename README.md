@@ -37,6 +37,7 @@ assets/js/events.js    Moves finished shows to "Past" in the browser
 scripts/build.mjs      Builds dist/ (pages, feed.xml, sitemap.xml, robots.txt)
 scripts/serve.mjs      Local preview server
 scripts/optimize-images.sh  Resize/recompress images before committing
+scripts/icons.mjs       Footer and card icons as inline SVG
 ```
 
 ## Adding a release or video
@@ -116,3 +117,6 @@ Inside any page or post body:
 The visual design comes from Paul Le's
 [Portfolio Jekyll Theme](https://github.com/LeNPaul/portfolio-jekyll-theme)
 (MIT, see `LICENSE.md`); `assets/css/all.css` is its compiled stylesheet.
+
+Icons are Font Awesome 4.7 glyphs by Dave Gandy (SIL OFL 1.1), inlined as SVG
+in `scripts/icons.mjs`.

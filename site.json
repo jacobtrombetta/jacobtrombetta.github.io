@@ -26,22 +26,27 @@
   "social": [
     {
       "icon": "bandcamp",
+      "label": "Bandcamp",
       "link": "https://discretespectrum.bandcamp.com/"
     },
     {
       "icon": "instagram",
+      "label": "Instagram",
       "link": "https://instagram.com/jacobtrombetta"
     },
     {
       "icon": "vimeo",
+      "label": "Vimeo",
       "link": "https://vimeo.com/user106725791"
     },
     {
       "icon": "github",
+      "label": "GitHub",
       "link": "https://github.com/jacobtrombetta"
     },
     {
       "icon": "envelope",
+      "label": "Email",
       "link": "mailto:jacobtrombetta@gmail.com"
     }
   ],

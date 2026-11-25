@@ -15,6 +15,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
+import { inlineIcons } from "./icons.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dist = path.join(root, "dist");
@@ -310,7 +311,6 @@ function head(page) {
     `<link rel="icon" href="/favicon.ico">`,
     `<link rel="alternate" type="application/atom+xml" href="/feed.xml" title="${escapeHtml(site.title)}">`,
     `<link rel="stylesheet" href="/assets/css/all.css">`,
-    `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">`,
     `<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">`,
   ];
   if (ld) lines.push(`<script type="application/ld+json">${ld}</script>`);
@@ -325,16 +325,16 @@ function head(page) {
 
 function renderPage(page) {
   const scripts = page.body.includes("{{events}}") ? `    <script src="/assets/js/events.js"></script>` : "";
-  return fill(template("base"), {
+  return inlineIcons(fill(template("base"), {
     head: head(page),
     siteTitle: escapeHtml(site.title),
     menu: site.menu.map((m) => `          <a href="${m.url}">${escapeHtml(m.name)}</a>`).join("\n"),
     social: site.social
-      .map((s) => `              <a href="${s.link}" target="_blank" rel="noopener"><i class="fa fa-${s.icon}" aria-hidden="true"></i></a>`)
+      .map((s) => `              <a href="${s.link}" target="_blank" rel="noopener" aria-label="${escapeHtml(s.label || s.icon)}"><i class="fa fa-${s.icon}" aria-hidden="true"></i></a>`)
       .join("\n"),
     main: main(page),
     scripts,
-  });
+  }));
 }
 
 // ---------- feed + sitemap ----------
@@ -347,7 +347,7 @@ function feed() {
     <published>${p.date}T00:00:00Z</published>
     <updated>${p.date}T00:00:00Z</updated>
 ${p.categories.map((c) => `    <category term="${escapeHtml(c)}"/>`).join("\n")}
-    <content type="html">${escapeHtml(expandPlaceholders(p.body))}</content>
+    <content type="html">${escapeHtml(inlineIcons(expandPlaceholders(p.body)))}</content>
   </entry>`);
   return `<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
