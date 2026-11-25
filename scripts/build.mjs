@@ -324,6 +324,7 @@ function head(page) {
 }
 
 function renderPage(page) {
+  if (!page.title && !page.headTitle) throw new Error(`${page.file}: needs a title: (or headTitle:) in its front matter`);
   const scripts = page.body.includes("{{events}}") ? `    <script src="/assets/js/events.js"></script>` : "";
   return inlineIcons(fill(template("base"), {
     head: head(page),
