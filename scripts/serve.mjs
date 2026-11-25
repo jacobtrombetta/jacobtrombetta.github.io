@@ -43,7 +43,12 @@ http
     if (!base.startsWith(dist)) return res.writeHead(403).end();
     const candidates = [base, `${base}.html`, path.join(base, "index.html")];
     const file = candidates.find((f) => fs.existsSync(f) && fs.statSync(f).isFile());
-    if (!file) return res.writeHead(404, { "Content-Type": "text/plain" }).end("Not found");
+    if (!file) {
+      // Like GitHub Pages: serve 404.html for missing pages.
+      const notFound = path.join(dist, "404.html");
+      res.writeHead(404, { "Content-Type": fs.existsSync(notFound) ? types[".html"] : "text/plain" });
+      return fs.existsSync(notFound) ? fs.createReadStream(notFound).pipe(res) : res.end("Not found");
+    }
     res.writeHead(200, { "Content-Type": types[path.extname(file)] || "application/octet-stream" });
     fs.createReadStream(file).pipe(res);
   })

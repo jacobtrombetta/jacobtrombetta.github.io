@@ -288,6 +288,8 @@ function head(page) {
   const title = page.headTitle || (page.url === "/" ? site.title : `${page.title} | ${site.title}`);
   const description = describe(page);
   const canonical = site.url + page.url;
+  // `noindex: true` (e.g. the 404 page): keep it out of search results and the sitemap.
+  const noindex = page.noindex === "true";
   const image = imageUrl(page.image || site.image);
   const ld = jsonLd(page);
   const lines = [
@@ -296,10 +298,10 @@ function head(page) {
     `<title>${escapeHtml(title)}</title>`,
     `<meta name="description" content="${escapeHtml(description)}">`,
     `<meta name="author" content="${escapeHtml(site.author)}">`,
-    `<link rel="canonical" href="${canonical}">`,
+    noindex ? `<meta name="robots" content="noindex">` : `<link rel="canonical" href="${canonical}">`,
     `<meta property="og:site_name" content="${escapeHtml(site.title)}">`,
     `<meta property="og:type" content="${page.layout === "post" && page.date ? "article" : "website"}">`,
-    `<meta property="og:url" content="${canonical}">`,
+    noindex ? "" : `<meta property="og:url" content="${canonical}">`,
     `<meta property="og:title" content="${escapeHtml(page.headTitle || page.title || site.title)}">`,
     `<meta property="og:description" content="${escapeHtml(description)}">`,
     `<meta property="og:image" content="${image}">`,
@@ -318,7 +320,7 @@ function head(page) {
       `<script data-goatcounter="https://${site.goatcounter}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>`,
     );
   }
-  return lines.map((l) => `    ${l}`).join("\n");
+  return lines.filter(Boolean).map((l) => `    ${l}`).join("\n");
 }
 
 function renderPage(page) {
@@ -362,7 +364,7 @@ ${entries.join("\n")}
 }
 
 function sitemap(all) {
-  const urls = all.map((p) => {
+  const urls = all.filter((p) => p.noindex !== "true").map((p) => {
     // The events page changes when events.json does.
     const sources = p.body.includes("{{events}}") ? [p.file, "content/events.json"] : [p.file];
     const dates = sources.map(gitDate).filter(Boolean).sort();

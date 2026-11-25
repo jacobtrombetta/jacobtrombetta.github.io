@@ -67,6 +67,8 @@ image: jt/jt_orv_1.jpg
   description).
 - Optional `headTitle:` replaces the whole browser-tab / search-result title
   (normally `Title | jacob trombetta`). The home page uses it.
+- Optional `noindex: true` hides a page from search engines and the sitemap
+  (used by `content/pages/404.html`, the "page not found" page).
 
 ## Adding images
 
