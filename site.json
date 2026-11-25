@@ -1,0 +1,72 @@
+{
+  "title": "jacob trombetta",
+  "url": "https://jacobtrombetta.com",
+  "author": "Jacob Trombetta",
+  "description": "Jacob Trombetta is a composer and video artist from Ohio, working with ambient pedal steel and computational video.",
+  "image": "jt/jt_credit_s.g._inskeep.jpg",
+  "goatcounter": "jacobtrombetta",
+  "menu": [
+    {
+      "name": "about",
+      "url": "/projects/music"
+    },
+    {
+      "name": "events",
+      "url": "/events"
+    },
+    {
+      "name": "projects",
+      "url": "/projects"
+    },
+    {
+      "name": "contact",
+      "url": "/contact"
+    }
+  ],
+  "social": [
+    {
+      "icon": "bandcamp",
+      "link": "https://discretespectrum.bandcamp.com/"
+    },
+    {
+      "icon": "instagram",
+      "link": "https://instagram.com/jacobtrombetta"
+    },
+    {
+      "icon": "vimeo",
+      "link": "https://vimeo.com/user106725791"
+    },
+    {
+      "icon": "github",
+      "link": "https://github.com/jacobtrombetta"
+    },
+    {
+      "icon": "envelope",
+      "link": "mailto:jacobtrombetta@gmail.com"
+    }
+  ],
+  "person": {
+    "description": "Composer and video artist from Ohio, working with ambient pedal steel and computational video.",
+    "sameAs": [
+      "https://instagram.com/jacobtrombetta",
+      "https://vimeo.com/user106725791",
+      "https://github.com/jacobtrombetta"
+    ],
+    "memberOf": [
+      {
+        "name": "Horses 4k",
+        "url": "https://horses4k.rodeo"
+      },
+      {
+        "name": "Phantom Lease",
+        "url": "https://phantomlease.com"
+      }
+    ],
+    "pages": [
+      "/",
+      "/about",
+      "/projects/music",
+      "/projects/jacob_trombetta"
+    ]
+  }
+}
