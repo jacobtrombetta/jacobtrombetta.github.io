@@ -291,21 +291,50 @@ function eventJsonLd(e) {
   };
 }
 
+// Posts with a Bandcamp album or track player are marked up as music
+// (MusicAlbum / MusicRecording) so search engines know they're releases and
+// who made them; other posts (videos, etc.) stay generic CreativeWorks.
+// Titles are "Artist - Release"; a title without " - " is self-titled.
+// Front matter `artist:` / `release:` override that split when the title
+// doesn't follow the pattern (e.g. Robert Ethington Quintet).
+function artistJsonLd(name) {
+  if (name === site.author) return { "@type": "Person", name, url: `${site.url}/` };
+  const band = site.person.memberOf.find((b) => b.name === name);
+  return { "@type": "MusicGroup", name, ...(band ? { url: band.url } : {}) };
+}
+
+function postJsonLd(page) {
+  const common = {
+    url: site.url + page.url,
+    datePublished: page.date,
+    description: describe(page),
+    ...(page.image ? { image: imageUrl(page.image) } : {}),
+  };
+  const kind = page.body.match(/bandcamp\.com\/EmbeddedPlayer\/(album|track)=/)?.[1];
+  if (!kind) {
+    return { "@type": "CreativeWork", name: page.title, ...common, creator: artistJsonLd(site.author) };
+  }
+  const dash = page.title.indexOf(" - ");
+  const artist = page.artist || (dash > 0 ? page.title.slice(0, dash) : page.title);
+  const release = page.release || (dash > 0 ? page.title.slice(dash + 3) : page.title);
+  const bandcamp = page.body.match(/href="(https?:\/\/[a-z0-9-]+\.bandcamp\.com\/(?:album|track)\/[^"]+)"/)?.[1]?.replace(/^http:/, "https:");
+  return {
+    "@type": kind === "album" ? "MusicAlbum" : "MusicRecording",
+    name: release,
+    byArtist: artistJsonLd(artist),
+    ...common,
+    ...(bandcamp ? { sameAs: bandcamp } : {}),
+    ...(bandcamp?.startsWith("https://discretespectrum.bandcamp.com/")
+      ? { publisher: { "@type": "Organization", name: "Discrete Spectrum", url: "https://discretespectrum.com" } }
+      : {}),
+  };
+}
+
 function jsonLd(page) {
   const graph = [];
   if (site.person.pages.includes(page.url)) graph.push(person());
   if (page.body.includes("{{events}}")) graph.push(...events.map(eventJsonLd));
-  if (page.slug && page.date) {
-    graph.push({
-      "@type": "CreativeWork",
-      name: page.title,
-      url: site.url + page.url,
-      datePublished: page.date,
-      description: describe(page),
-      ...(page.image ? { image: imageUrl(page.image) } : {}),
-      creator: { "@type": "Person", name: site.author, url: `${site.url}/` },
-    });
-  }
+  if (page.slug && page.date) graph.push(postJsonLd(page));
   if (!graph.length) return null;
   const data = graph.length === 1 ? { "@context": "https://schema.org", ...graph[0] } : { "@context": "https://schema.org", "@graph": graph };
   // Keep "</script>" from ever closing the tag early.
