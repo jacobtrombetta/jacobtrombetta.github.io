@@ -70,6 +70,16 @@ image: jt/jt_orv_1.jpg
   (normally `Title | jacob trombetta`). The home page uses it.
 - Optional `noindex: true` hides a page from search engines and the sitemap
   (used by `content/pages/404.html`, the "page not found" page).
+- **Write titles as `Artist - Release`** (e.g. `Horses 4k - Nina`). With a
+  Bandcamp album or track player in the body, the build tells search engines
+  the page is an album or track by that artist. If the title doesn't fit that
+  pattern, add `artist:` and `release:` (see the Robert Ethington Quintet
+  post). A title with no ` - ` counts as self-titled (`Greening`).
+- Don't put an `<h1>` in the body: the page title already is the page's main
+  heading.
+- **Links between pages are checked on every build.** If a link points to a
+  page or image that doesn't exist, the build stops with a list of them, and
+  a deploy leaves the previous version live. Fix the link and push again.
 
 ## Adding images
 

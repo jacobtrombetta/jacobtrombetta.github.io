@@ -456,4 +456,37 @@ fs.writeFileSync(path.join(dist, "feed.xml"), feed());
 fs.writeFileSync(path.join(dist, "sitemap.xml"), sitemap(all));
 fs.writeFileSync(path.join(dist, "robots.txt"), `User-agent: *\nAllow: /\n\nSitemap: ${site.url}/sitemap.xml\n`);
 
+// ---------- check links ----------
+// Every link and image on the site that points within the site must lead to
+// a file in dist/ (served as GitHub Pages would: /x finds x, x.html or
+// x/index.html). A broken one stops the build, so it never deploys.
+
+function checkLinks() {
+  const files = new Set();
+  const walk = (dir) => {
+    for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+      const f = path.join(dir, e.name);
+      e.isDirectory() ? walk(f) : files.add("/" + path.relative(dist, f).split(path.sep).join("/"));
+    }
+  };
+  walk(dist);
+  const exists = (u) => u === "/" || files.has(u) || files.has(`${u}.html`) || files.has(`${u.replace(/\/$/, "")}/index.html`);
+  const broken = [];
+  for (const f of files) {
+    if (!f.endsWith(".html")) continue;
+    const html = fs.readFileSync(path.join(dist, f), "utf8");
+    for (const [, raw] of html.matchAll(/(?:href|src)="(\/(?!\/)[^"#?]*)/g)) {
+      let u = raw;
+      try { u = decodeURIComponent(raw); } catch {}
+      if (!exists(u)) broken.push(`  ${f} links to ${raw}`);
+    }
+  }
+  if (broken.length) {
+    console.error(`Broken internal links (fix the link or add the file):\n${[...new Set(broken)].join("\n")}`);
+    process.exit(1);
+  }
+}
+
+checkLinks();
+
 console.log(`Built ${all.length} pages into dist/ (${events.filter((e) => e.date >= today).length} upcoming events).`);
