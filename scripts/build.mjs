@@ -174,22 +174,49 @@ function expandPlaceholders(body) {
     .replace(/\{\{events\}\}/g, () => eventsHtml());
 }
 
+// Every page gets exactly one <h1> (search engines and screen readers use it
+// to tell what the page is about). Post pages show their title as the <h1>,
+// styled like the old <h4> (.project-title in all.css). Pages without a
+// visible title (home, about, events, ...) get one that is visually hidden
+// but read by search engines and screen readers. The text is the page's own
+// title, so it never says anything the page doesn't. It goes inside the first
+// element rather than before it: the theme alternates section colors with
+// section:nth-child(odd), and an extra sibling would shift that pattern.
+function withHiddenH1(page, html) {
+  const h1 = hiddenH1(page).trimEnd();
+  const out = html.replace(/^(\s*<[a-z][^>]*>)/, `$1${h1}`);
+  if (out === html) throw new Error(`${page.file}: no element to put the hidden <h1> in`);
+  return out;
+}
+
+function hiddenH1(page) {
+  const text = page.layout === "none" ? site.title : page.title || page.headTitle.replace(/\s*\|.*$/, "");
+  return `<h1 class="visually-hidden">${escapeHtml(text)}</h1>\n`;
+}
+
 function main(page) {
   const content = expandPlaceholders(page.body).trimEnd();
+  if (/<h1[\s>]/.test(content)) throw new Error(`${page.file}: has its own <h1>; the layout adds one`);
   switch (page.layout) {
     case "none":
-      return content;
-    case "post":
-      return fill(template("post"), {
-        title: escapeHtml(page.title || ""),
+      return withHiddenH1(page, content);
+    case "post": {
+      const html = fill(template("post"), {
+        heading: page.title
+          ? `<h1 class="project-title">${escapeHtml(page.title)}</h1>`
+          : // No visible title: keep the theme's empty title element for its
+            // spacing, and put a hidden <h1> at the start of the section.
+            `<h4 class="project-title" style="text-align: center;"></h4>`,
         featuredImage: page.image
           ? `    <div class="image-container">\n      <img src="/assets/img/${page.image}" alt="${escapeHtml(page.title)}" class="image">\n    </div>`
           : "",
         content,
       });
+      return page.title ? html : withHiddenH1(page, html);
+    }
     case "page":
     case "contact":
-      return fill(template(page.layout), { content });
+      return withHiddenH1(page, fill(template(page.layout), { content }));
     default:
       throw new Error(`${page.file}: unknown layout "${page.layout}"`);
   }
